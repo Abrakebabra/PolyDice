@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644DAE5624AC9907000F89FC /* DiceRolls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DAE5524AC9907000F89FC /* DiceRolls.swift */; };
+		644DAE9224ACF2DA000F89FC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DAE8A24ACF2DA000F89FC /* 4.png */; };
+		644DAE9324ACF2DA000F89FC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DAE8B24ACF2DA000F89FC /* 5.png */; };
+		644DAE9424ACF2DA000F89FC /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DAE8C24ACF2DA000F89FC /* 7.png */; };
+		644DAE9524ACF2DA000F89FC /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DAE8D24ACF2DA000F89FC /* 6.png */; };
+		644DAE9624ACF2DA000F89FC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DAE8E24ACF2DA000F89FC /* 2.png */; };
+		644DAE9724ACF2DA000F89FC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DAE8F24ACF2DA000F89FC /* 3.png */; };
+		644DAE9824ACF2DA000F89FC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DAE9024ACF2DA000F89FC /* 1.png */; };
+		644DAE9924ACF2DA000F89FC /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DAE9124ACF2DA000F89FC /* 0.png */; };
+		644DAEA024AD0776000F89FC /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DAE9F24AD0776000F89FC /* Dice.swift */; };
+		644DAEA224AD8E2D000F89FC /* DieImageGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DAEA124AD8E2D000F89FC /* DieImageGesture.swift */; };
 		647BA52724ABAEE200300916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BA52624ABAEE200300916 /* AppDelegate.swift */; };
 		647BA52924ABAEE200300916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BA52824ABAEE200300916 /* SceneDelegate.swift */; };
 		647BA52B24ABAEE200300916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647BA52A24ABAEE200300916 /* ContentView.swift */; };
@@ -27,6 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		644DAE5524AC9907000F89FC /* DiceRolls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRolls.swift; sourceTree = "<group>"; };
+		644DAE8A24ACF2DA000F89FC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		644DAE8B24ACF2DA000F89FC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		644DAE8C24ACF2DA000F89FC /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		644DAE8D24ACF2DA000F89FC /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		644DAE8E24ACF2DA000F89FC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		644DAE8F24ACF2DA000F89FC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		644DAE9024ACF2DA000F89FC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		644DAE9124ACF2DA000F89FC /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		644DAE9F24AD0776000F89FC /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		644DAEA124AD8E2D000F89FC /* DieImageGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieImageGesture.swift; sourceTree = "<group>"; };
 		647BA52324ABAEE200300916 /* PolyDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647BA52624ABAEE200300916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		647BA52824ABAEE200300916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +80,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		644DAE8924ACF2DA000F89FC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				644DAE9124ACF2DA000F89FC /* 0.png */,
+				644DAE9024ACF2DA000F89FC /* 1.png */,
+				644DAE8E24ACF2DA000F89FC /* 2.png */,
+				644DAE8F24ACF2DA000F89FC /* 3.png */,
+				644DAE8A24ACF2DA000F89FC /* 4.png */,
+				644DAE8B24ACF2DA000F89FC /* 5.png */,
+				644DAE8D24ACF2DA000F89FC /* 6.png */,
+				644DAE8C24ACF2DA000F89FC /* 7.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		644DAE9A24AD02B7000F89FC /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				644DAEA124AD8E2D000F89FC /* DieImageGesture.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
 		647BA51A24ABAEE200300916 = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +127,11 @@
 				647BA52624ABAEE200300916 /* AppDelegate.swift */,
 				647BA52824ABAEE200300916 /* SceneDelegate.swift */,
 				647BA52A24ABAEE200300916 /* ContentView.swift */,
+				644DAE5524AC9907000F89FC /* DiceRolls.swift */,
+				644DAE9F24AD0776000F89FC /* Dice.swift */,
 				647BA52C24ABAEE600300916 /* Assets.xcassets */,
+				644DAE9A24AD02B7000F89FC /* Supporting Views */,
+				644DAE8924ACF2DA000F89FC /* Images */,
 				647BA53124ABAEE600300916 /* LaunchScreen.storyboard */,
 				647BA53424ABAEE600300916 /* Info.plist */,
 				647BA52E24ABAEE600300916 /* Preview Content */,
@@ -188,9 +237,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644DAE9924ACF2DA000F89FC /* 0.png in Resources */,
+				644DAE9524ACF2DA000F89FC /* 6.png in Resources */,
+				644DAE9224ACF2DA000F89FC /* 4.png in Resources */,
+				644DAE9624ACF2DA000F89FC /* 2.png in Resources */,
+				644DAE9724ACF2DA000F89FC /* 3.png in Resources */,
+				644DAE9324ACF2DA000F89FC /* 5.png in Resources */,
 				647BA53324ABAEE600300916 /* LaunchScreen.storyboard in Resources */,
+				644DAE9424ACF2DA000F89FC /* 7.png in Resources */,
 				647BA53024ABAEE600300916 /* Preview Assets.xcassets in Resources */,
 				647BA52D24ABAEE600300916 /* Assets.xcassets in Resources */,
+				644DAE9824ACF2DA000F89FC /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				647BA52724ABAEE200300916 /* AppDelegate.swift in Sources */,
+				644DAEA224AD8E2D000F89FC /* DieImageGesture.swift in Sources */,
 				647BA52924ABAEE200300916 /* SceneDelegate.swift in Sources */,
 				647BA52B24ABAEE200300916 /* ContentView.swift in Sources */,
+				644DAE5624AC9907000F89FC /* DiceRolls.swift in Sources */,
+				644DAEA024AD0776000F89FC /* Dice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
